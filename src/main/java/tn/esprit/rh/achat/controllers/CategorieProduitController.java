@@ -45,6 +45,7 @@ public class CategorieProduitController {
 	public void removeCategorieProduit(@PathVariable("categorieProduit-id") Long categorieProduitId) {
 		categorieProduitService.deleteCategorieProduit(categorieProduitId);
 	}
+//modif 2
 
 	// http://localhost:8089/SpringMVC/categorieProduit/modify-categorieProduit
 	@PutMapping("/modify-categorieProduit")
